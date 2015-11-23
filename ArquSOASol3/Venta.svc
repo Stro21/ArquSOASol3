@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ArquSOASol3.Venta" CodeBehind="Venta.svc.cs" %>
