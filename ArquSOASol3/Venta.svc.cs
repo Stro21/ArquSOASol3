@@ -9,8 +9,6 @@ using System.Data;
 
 namespace ArquSOASol3
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Venta" en el código, en svc y en el archivo de configuración a la vez.
-    // NOTA: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione Venta.svc o Venta.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class Venta : IVenta
     {
         public bool Buscar_Producto(string producto)
@@ -19,6 +17,19 @@ namespace ArquSOASol3
             string find = "ProductName = " + producto;
             DataTable tb = new DataTable();
             return encontrado;
+        }
+
+        public void agregar_producto_venta(string producto)
+        {
+            if (Buscar_Producto(producto))
+            {
+
+            }
+        }
+
+        public void eliminar_producto_venta(string producto)
+        {
+
         }
     }
 }
