@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using ArquSOASol3;
+using System.Data;
 
 namespace ArquSOASol3
 {
@@ -14,6 +16,8 @@ namespace ArquSOASol3
         public bool Buscar_Producto(string producto)
         {
             bool encontrado = false;
+            string find = "ProductName = " + producto;
+            DataTable tb = new DataTable();
             return encontrado;
         }
     }

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquSOASol3", "ArquSOASol3\ArquSOASol3.csproj", "{5AE2511C-0C19-46AE-83B1-8822676B4F19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataEFService", "..\..\..\Google Drive\Universidad\Cursos Actuales\Arquitectura de Sistemas\2015\Arquitectura\EA2015AP-SOA-WCF\ODataEFService\ODataEFService\ODataEFService.csproj", "{07117602-791C-4467-8C26-52F9B2F4A0B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5AE2511C-0C19-46AE-83B1-8822676B4F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE2511C-0C19-46AE-83B1-8822676B4F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AE2511C-0C19-46AE-83B1-8822676B4F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07117602-791C-4467-8C26-52F9B2F4A0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07117602-791C-4467-8C26-52F9B2F4A0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07117602-791C-4467-8C26-52F9B2F4A0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07117602-791C-4467-8C26-52F9B2F4A0B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
